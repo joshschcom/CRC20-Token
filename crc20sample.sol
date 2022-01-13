@@ -223,7 +223,7 @@ contract SAMPLENAME is Context, IBEP20, Ownable {
  
   function transferFrom(address sender, address recipient, uint256 amount) external returns (bool) {
     _transfer(sender, recipient, amount);
-    _approve(sender, _msgSender(), _allowances[sender][_msgSender()].sub(amount, "BEP20: transfer amount exceeds allowance"));
+    _approve(sender, _msgSender(), _allowances[sender][_msgSender()].sub(amount, "CRC20: transfer amount exceeds allowance"));
     return true;
   }
 
@@ -235,7 +235,7 @@ contract SAMPLENAME is Context, IBEP20, Ownable {
 
  
   function decreaseAllowance(address spender, uint256 subtractedValue) public returns (bool) {
-    _approve(_msgSender(), spender, _allowances[_msgSender()][spender].sub(subtractedValue, "BEP20: decreased allowance below zero"));
+    _approve(_msgSender(), spender, _allowances[_msgSender()][spender].sub(subtractedValue, "CRC20: decreased allowance below zero"));
     return true;
   }
 
@@ -251,8 +251,8 @@ contract SAMPLENAME is Context, IBEP20, Ownable {
 
 
   function _approve(address owner, address spender, uint256 amount) internal {
-    require(owner != address(0), "BEP20: approve from the zero address");
-    require(spender != address(0), "BEP20: approve to the zero address");
+    require(owner != address(0), "CRC20: approve from the zero address");
+    require(spender != address(0), "CRC20: approve to the zero address");
 
     _allowances[owner][spender] = amount;
     emit Approval(owner, spender, amount);

@@ -1,6 +1,7 @@
 pragma solidity 0.5.16;
 
-// Original: https://github.com/agussaifuddin/BEP20-Contract-Template/blob/main/BEP20-Standard.sol
+// Thanks to: https://github.com/agussaifuddin/BEP20-Contract-Template
+// Creator: https://github.com/joshschcom/CRC20-Token/edit/main/crc20sample.sol
 
 interface IBEP20 {
  

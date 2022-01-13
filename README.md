@@ -9,7 +9,7 @@ Paste the code into it(@https://github.com/joshschcom/CRC20-Token/blob/main/crc2
 Change "SAMPLENAME" to your Contract Name
 
 # Declare the name, symbol, decimals and total supply to your cryptotoken
-Starting at paragraph 168 "SAMPLE", Paragraph 169 "SAMP", Paragraph 170 "8", Paragraph 171 "10000000000000" Note: You hav to add the decimals behind the inital supply. In our example in Paragraph 171, we have a supply of 1000000((1Million) + 8 decimals(00000000) = 100000000000000")
+Now you have to override the these values, starting at paragraph 168 "SAMPLE", Paragraph 169 "SAMP", Paragraph 170 "8", Paragraph 171 "10000000000000" Note: You hav to add the decimals behind the inital supply. In our example in Paragraph 171, we have a supply of 1000000((1Million) + 8 decimals(00000000) = 100000000000000")
 
 # Use the right compiler version and compile
 Aswell as choose Enable Optimization(200)

@@ -3,8 +3,7 @@ A small and easy description for deploying CRC-20 Tokens to the Cronos Blockchai
 
 # Open remix.ethereum.org
 Create New File and name it SAMPLENAME.sol
-
-# Paste the code into it(crc20sample.sol)
+Paste the code into it(@https://github.com/joshschcom/CRC20-Token/blob/main/crc20sample.sol)
 
 # Change the Name to your liking on Paragraph 155
 "SAMPLENAME"

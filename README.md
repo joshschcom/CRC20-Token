@@ -23,3 +23,8 @@ You'll see that a new Token has been created and transferred to your Metamask ac
 If the transaction doesn't show up on the Cronos Block Explorer right away, just wait and reload the page. It can take up to half an hour for it to be recognized. 
 
 Congratulations! You now made your very own preminted CRC20 Token.
+
+
+
+
+Code has been partially audited by TechDeck. 

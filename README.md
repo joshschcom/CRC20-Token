@@ -1,5 +1,6 @@
 # CRC20-Token
-A small and easy description for deploying CRC-20 Tokens to the Cronos Blockchain. We'll use remix aswell as Metamask in this example. 
+A small and easy description for deploying CRC-20 Tokens to the Cronos Blockchain. We'll use remix aswell as Metamask in this example.
+(Updated Version at: https://github.com/joshschcom/BEP20_1)
 
 # Open remix.ethereum.org
 Create New File and name it SAMPLENAME.sol
